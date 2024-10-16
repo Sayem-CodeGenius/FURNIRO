@@ -1,0 +1,173 @@
+:root {
+    --primary: #b88e2f;
+    --secondary: #000;
+    --font-family: "Poppins", sans-serif;
+}
+
+
+/* ====== CSS COMMON BEGINS HERE ====== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1240px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ====== CSS COMMON ENDS HERE ====== */
+/* ====== NAVBAR BEGINS HERE ====== */
+nav .logo {
+    width: 20%;
+}
+
+nav .menu {
+    width: 50%;
+}
+
+nav .menu ul {
+    justify-content: center;
+}
+
+nav .menu ul li a {
+    padding: 38px 37.5px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000;
+}
+
+nav .quciklinks {
+    width: 30%;
+    text-align: right;
+
+}
+
+nav .row {
+    align-items: center;
+}
+
+nav .quciklinks a {
+    color: #000;
+    font-size: 23.33px;
+    margin: 0 22.5px;
+}
+
+.primary-button {
+    background-color: var(--primary);
+    padding: 12px 36px;
+    display: inline-block;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+}
+
+/* ======= NAVBAR ENDS HERE ====== */
+
+/* ====== BANNER BEGINS HERE ====== */
+#banner {
+    background-image: url(../images/banner.png);
+    height: 716px;
+    background-size: cover;
+    position: relative;
+}
+
+.bannercontent {
+    max-width: 643px;
+    background-color: #fff3e3;
+    border-radius: 10px;
+    padding: 62px 40px 37px;
+    position: absolute;
+    top: 157px;
+    right: 58px;
+    left: 747px;
+}
+
+.bannercontent h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.19em;
+    color: #333;
+}
+
+.bannercontent h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 125%;
+    color: var(--primary);
+    margin: 4px 0 17px;
+}
+
+.bannercontent p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #333;
+    margin-bottom: 46px;
+}
+
+.bannercontent a{
+    padding: 25px 72px;
+}
+/* ====== BANNER ENDS HERE ====== */
+
+/* ====== COLLECTION SECTION BEGINS HERE ====== */
+#collection{
+    padding: 56px 0px;
+}
+.texts{
+    text-align: center;
+}
+.texts h3{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 32px;
+color: #333;
+}
+.texts p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #666;
+}
+.card{
+    width: calc(33.333333333333336 - 10px);
+    margin: 62px 10px 0;
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 24px;
+text-align: center;
+}
+.card a{
+    color: #333;
+
+}
+/* ====== COLLECTION SECTION ENDS HERE ====== */
